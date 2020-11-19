@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adbs-oltp-facade" />
+        <module name="adbs-oltp-starter" />
+        <module name="adbs-oltp-xsample" />
+        <module name="adbs-oltp-core" />
+        <module name="adbs-oltp-exception" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="adbs-oltp-core" options="-parameters" />
+      <module name="adbs-oltp-exception" options="-parameters" />
+      <module name="adbs-oltp-facade" options="-parameters" />
+      <module name="adbs-oltp-starter" options="-parameters" />
+      <module name="adbs-oltp-xsample" options="-parameters" />
+    </option>
+  </component>
+</project>

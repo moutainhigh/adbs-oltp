@@ -1,0 +1,6 @@
+# Project exclude paths
+/adbs-oltp-core/target/
+/adbs-oltp-exception/target/
+/adbs-oltp-facade/target/
+/adbs-oltp-starter/target/
+/adbs-oltp-xsample/target/
