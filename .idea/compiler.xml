@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="adbs-oltp-facade" />
         <module name="adbs-oltp-starter" />
         <module name="adbs-oltp-xsample" />
+        <module name="adbs-oltp-facade" />
         <module name="adbs-oltp-core" />
         <module name="adbs-oltp-exception" />
       </profile>

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dbs-oltp-facade</artifactId>
+    <artifactId>adbs-oltp-facade</artifactId>
 
 
 </project>

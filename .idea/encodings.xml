@@ -2,10 +2,6 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/adbs-oltp-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/adbs-oltp-dependencies/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/adbs-oltp-dependencies/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/adbs-oltp-exception/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/adbs-oltp-facade/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adbs-oltp-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/adbs-oltp-xsample/src/main/java" charset="UTF-8" />
   </component>

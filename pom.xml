@@ -6,7 +6,6 @@
     <artifactId>adbs-oltp-dependencies</artifactId>
     <groupId>com.shidq.adbs</groupId>
     <version>1.0-SNAPSHOT</version>
-    <relativePath>./adbs-oltp-dependencies</relativePath>
 </parent>
 
     <modelVersion>4.0.0</modelVersion>
