@@ -1,4 +1,4 @@
-package com.shidq.adbs.xsample.utils;
+package com.shidq.adbs.oltp.core.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

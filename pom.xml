@@ -17,8 +17,6 @@
     <modules>
         <module>adbs-oltp-dependencies</module>
         <module>adbs-oltp-core</module>
-        <module>adbs-oltp-exception</module>
-        <module>adbs-oltp-facade</module>
         <module>adbs-oltp-starter</module>
         <module>adbs-oltp-xsample</module>
     </modules>

@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="adbs-oltp-starter" />
         <module name="adbs-oltp-xsample" />
-        <module name="adbs-oltp-facade" />
         <module name="adbs-oltp-core" />
-        <module name="adbs-oltp-exception" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="adbs-oltp-exception" target="1.7" />
+      <module name="adbs-oltp-facade" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
