@@ -7,20 +7,30 @@ import com.alipay.sofa.rpc.ext.Extension;
 import com.alipay.sofa.rpc.filter.AutoActive;
 import com.alipay.sofa.rpc.filter.Filter;
 import com.alipay.sofa.rpc.filter.FilterInvoker;
-import org.springframework.stereotype.Service;
+import com.shidq.adbs.oltp.core.context.ServiceContextBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.util.HashMap;
 
 /**
  * @Author : shidq
  * @Date : 2020/11/20 1:11
- * @Desc :
+ * @Desc : sofa过滤器，ADBS交易引擎
  * @Version : 1.0
  */
-@Extension("customFilter")
+@Extension("oltpEngineFilter")
 @AutoActive(providerSide = true)
-public class CustomFilter extends Filter {
+public class OltpEngineFilter extends Filter {
+
+    @Autowired
+    OltpEngineHandler oltpEngineHandler ;
+
+    @Autowired
+    ServiceContextBuilder serviceContextBuilder ;
+
     @Override
     public SofaResponse invoke(FilterInvoker filterInvoker, SofaRequest sofaRequest) throws SofaRpcException {
-        System.out.println("CustomFilter run !!!! =====   begin!!!"  );
+        System.out.println("OltpEngineFilter run !!!! =====   begin!!!"  );
 
         System.out.println(filterInvoker) ;
         System.out.println(sofaRequest) ;
@@ -31,8 +41,13 @@ public class CustomFilter extends Filter {
         System.out.println(var2[0].toString()) ;
 
         SofaResponse sofaResponse = filterInvoker.invoke(sofaRequest)  ;
-        System.out.println("CustomFilter run !!!!=====ending");
-       // return sofaResponse ;
-        return null ;
+        System.out.println("OltpEngineFilter run !!!!=====ending");
+//        HashMap respmap = new HashMap() ;
+//        respmap.put("k1","V1") ;
+//        respmap.put("k2","V2") ;
+//        respmap.put("k3","V3") ;
+//        respmap.put("k4","V4") ;
+//        sofaResponse.setAppResponse(respmap);
+        return sofaResponse ;
     }
 }

@@ -7,14 +7,14 @@ import org.springframework.context.annotation.ImportResource;
 /**
  * @Author : shidq
  * @Date : 2020/11/20 0:59
- * @Desc :
+ * @Desc : springboot启动程序
  * @Version : 1.0
  */
 @ImportResource({ "classpath*:rpc-sofa-boot-starter-samples.xml" })
 @SpringBootApplication(scanBasePackages = "com.shidq.adbs.*")
-public class SofaDemoProviderApplication {
+public class XsampleApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SofaDemoProviderApplication.class, args);
+        SpringApplication.run(XsampleApplication.class, args);
     }
 
 }

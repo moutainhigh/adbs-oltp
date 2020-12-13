@@ -35,7 +35,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.shidq.adbs.xsample.SofaDemoProviderApplication</mainClass>   //主程序入口类
+                            <mainClass>com.shidq.adbs.xsample.XsampleApplication</mainClass>   //主程序入口类
                         </manifest>
                     </archive>
                 </configuration>
